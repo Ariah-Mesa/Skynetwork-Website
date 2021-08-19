@@ -44,9 +44,10 @@ Colors:
 	position: relative;
 	padding: 20px;
 	margin: 20px;
-	border-radius: 50px;
+	border-radius: 30px;
+	/* border-radius: 30px;
 	background: #efefef;
-	box-shadow: inset 6px 6px 12px #cbcbcb, inset -6px -6px 12px #ffffff;
+	box-shadow: inset 6px 6px 12px #cbcbcb, inset -6px -6px 12px #ffffff; */
 	display: flex;
 	align-items: center;
 }
