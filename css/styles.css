@@ -30,6 +30,22 @@ Colors:
 - Body text - dark gray #6b747b
 ******************************************/
 
+/**************************/
+/*           ETC          */
+/**************************/
+
+.cardFlex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.profile {
+	padding: 20px;
+}
+
+/***********End************/
 
 /**************************/
 /*     General Styles     */
@@ -530,7 +546,7 @@ input[type='checkbox'] {
 	overflow: hidden;
 	padding-top: 6rem;
 	padding-bottom: 17rem;
-	background: #1b1e7b;
+	background: rgb(25, 10, 21);
 }
 
 .header .text-container {
@@ -618,6 +634,10 @@ input[type='checkbox'] {
 	width: 110px;
 	margin-bottom: 0.75rem;
 	border-radius: 50%;
+}
+
+.mainimg { 
+	position: relative;
 }
 
 
@@ -1072,7 +1092,7 @@ a:hover.back-to-top {
 	.navbar.top-nav-collapse {
 		padding-top: 0.625rem;
 		padding-bottom: 0.625rem;
-		background-color: #1b1e7b;
+		background-color: rgb(25, 10, 21);
 		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.025);
 	}
 
