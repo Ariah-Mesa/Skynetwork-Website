@@ -38,11 +38,42 @@ Colors:
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	
 }
 
 .profile {
+	position: relative;
 	padding: 20px;
+	margin: 20px;
+	border-radius: 50px;
+	background: #efefef;
+	box-shadow: inset 6px 6px 12px #cbcbcb, inset -6px -6px 12px #ffffff;
+	display: flex;
+	align-items: center;
+}
+
+.inflex {
+	display: flex;
+}
+
+.profileImg {
+	width: 10px;
+	margin-right: 40px;
+}
+
+.Protext {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.slash {
+	font-weight: bold;
+	color: rgb(68, 68, 255);
+}
+
+.lgimg {
+	width: 100px;
+	height: auto;
 }
 
 /***********End************/
