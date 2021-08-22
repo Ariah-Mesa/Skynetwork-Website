@@ -17,9 +17,11 @@
 	// jQuery for page scrolling feature - requires jQuery Easing plugin
 	$(function() {
 		$(document).on('click', 'a.page-scroll', function(event) {
-			var $anchor = $(this);
+			var $anchor = $(window);
+			var attribute = $anchor.attr('href');
+			console.log($anchor +" "+ attribute);
 			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top
+				scrollTop: $(attribute).offset()
 			}, 600, 'easeInOutExpo');
 			event.preventDefault();
 		});
